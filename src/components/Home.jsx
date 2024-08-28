@@ -32,7 +32,7 @@ function Home() {
   }, []);
 
   return (
-    <div className=" grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 border border-gray-400 gap-y-3 gap-x-2 p-4 ">
+    <div className=" grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 border border-gray-400 gap-y-3 gap-x-2 p-4  ">
       {matchesData?.map(({ matchDetailsMap: { match, key: date } }) =>
         match.map(
           (

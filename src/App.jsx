@@ -6,7 +6,7 @@ import PointsTable from "./components/PointsTable";
 import News from "./components/News";
 function App() {
   return (
-    <div className=" max-w-screen  min-h-screen mx-auto">
+    <div className="  min-h-screen mx-auto">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route path="/" element={<Home />}></Route>

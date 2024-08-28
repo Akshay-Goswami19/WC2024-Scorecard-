@@ -20,7 +20,7 @@ function InPageNavigation({ teams, children }) {
   }, []);
 
   return (
-    <div className=" w-full  ">
+    <div className="w-full  ">
       <div
         className={
           " max-w-full h-[70px] flex justify-between items-end  " +
